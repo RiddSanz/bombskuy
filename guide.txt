@@ -1,0 +1,83 @@
+CLIENT SIDE MODULE
+CONTENTS
+This module has the following files:
+1.	MODULE_CLIENT_SIDE.doc 
+2.	MODULE_CLIENT_SIDE_MEDIA.zip
+
+INTRODUCTION
+You are asked to develop a game called BOMBSKUY using HTML and CSS and develop client-side programming using JavaScript. Some media files are available to you in a zip file. You can create more media and modify anything in the media if you want. Your game needs to be developed in a tablet resolution (1000 x 600 pixels). In bigger resolution, the game must be centred in the screen both horizontally and vertically.
+DESCRIPTION OF PROJECTS AND TASKS
+You can create the layout using HTML/CSS and create the functionality of the game using JavaScript that allows the game to work correctly in different web browsers. EcmaScript 6 / Javascript Modules not allowed for this module. This module will be marked with directly opening the index.html page using Google Chrome.
+BOMBSKUY game screen should have meet these requirements below:
+1.	Player Name
+2.	Gameboard
+3.	Character
+4.	Player Lives
+5.	Total Items
+6.	Timer
+
+Game functionalities
+1.	Game should be on a single page application (index.html). No refresh / reload page and additional html page for any action.
+2.	Display a welcome screen in the centre of the page when the game loads.
+3.	Players can Start the game after filling the username field and click the “Play Game” button at the bottom of the welcome page.
+4.	The “Play Game” button should remain disabled until a username is entered..
+5.	After entering a username and clicking "Play Game", the player should choose one of three difficulty levels: Easy, Medium, or Hard.
+6.	After selecting a difficulty level, show a countdown in the centre of the screen for 3 seconds before the game starts.
+7.	Provide an "Instruction" button that, when clicked, displays the game instructions.
+8.	Users can close instructions after clicking the “X” button.
+9.	Players will get 3 hearts when the game starts.
+10.	The number of dogs (computer-controlled opponents) is determined by the difficulty level:
+a.	1 Dog for Easy
+b.	2 Dogs for Medium
+c.	3 Dogs for Hard
+11.	the dog's position will be random
+12.	The player’s character starts in the top-left corner of the game map when the game begins.
+13.	Place brick walls randomly around the game map to act as obstacles that players cannot pass through.
+14.	Place stone walls according to the given game maps as follow:
+ (MODULE_CLIENT_MEDIA/Example/'03. Game 1.jpg')
+Image 1. Stone walls placement.
+15.	The player can move their character using the following keys:
+a.	“A” or “Left arrow” to move left
+b.	“W” or “Up arrow ” to move up
+c.	“D” or “Right arrow” to move right
+d.	“S” or “Down arrow” to move down
+16.	Pressing the Space key allows the player to place a bomb.
+17.	The bomb will explode 5 seconds after being placed.
+18.	Bomb explosions affect one box in each direction: up, down, left, and right..
+19.	The wall will destroyed after hit by a bomb explosion
+20.	Items are hidden inside walls and appear when walls are destroyed.
+21.	The items that will be there are as follows:
+a.	Broken Heart: Decreases the player’s hearts.
+b.	TNT: Doubles the bomb’s explosion range
+c.	Ice cube: Freezes the player for 5 seconds.
+22.	The item disappears after being touched by the player.
+23.	When a player gets an item, the player's character will have a mark of that item.
+24.	Each items that player gets will be increase are as follows:
+a.	Destroyed walls 
+b.	TnT earned
+c.	Ice box obtained
+25.	Walking animation when the character is moving must be shown.
+26.	The dog (computer) can move as needed and 
+27.	The dog (computer) must search for players.
+28.	Hearts decrease if the player is hit by a bomb explosion or touches a dog.
+29.	Show animation on the character when the player touches the bomb explosion and dog.
+30.	Players can pause the game by pressing the Esc key.
+31.	When paused, display a popup, and the game should stop until Esc is pressed again or the Continue button is clicked.
+32.	Game Over when the heart reaches 0.
+33.	Show popup after game over to display the player username, time elapsed, total score, Save score button and Leaderboards button.
+34.	Match history should be saved in local storage after the player clicks the Save Score button.
+35.	Players can see the leaderboards after clicking the Leaderboards Button.
+36.	Clicking the Leaderboard button displays a leaderboard sorted by:
+a.	Total walls destroyed
+b.	TNTs collected
+c.	Ice cubes obtained
+37.	The game needs to work correctly on Google Chrome.
+INSTRUCTION FOR COMPETITORS
+1.	Create a root folder called XX_CLIENT_MODULE in your local computer, where XX is your computer number.
+2.	Place your works inside the root folder. Make sure your works are working well when directly opening the index.html file.
+3.	Zip your root folder XX_CLIENT_MODULE and submit to the submission page
+
+Example	
+These following images are for example purposes only. You may design your own game layout. 
+(see Example folder)
+        
